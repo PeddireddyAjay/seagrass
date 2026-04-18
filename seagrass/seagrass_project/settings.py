@@ -82,16 +82,26 @@ WSGI_APPLICATION = "seagrass_project.wsgi.application"
 
 
 # Database
-DATABASES = {
-    "default": {
-        "ENGINE": os.environ.get("DB_ENGINE", "seagrass_project.pymysql_backend"),
-        "NAME": os.environ.get("DB_NAME", "seagrass"),
-        "USER": os.environ.get("DB_USER", "root"),
-        "PASSWORD": os.environ.get("DB_PASSWORD", ""),
-        "HOST": os.environ.get("DB_HOST", "localhost"),
-        "PORT": os.environ.get("DB_PORT", "3306"),
+import dj_database_url
+
+# Try to get DATABASE_URL from environment (Render provides this for PostgreSQL)
+DATABASE_URL = os.environ.get("DATABASE_URL")
+
+if DATABASE_URL:
+    # Use PostgreSQL from Render
+    DATABASES = {"default": dj_database_url.config(default=DATABASE_URL, conn_max_age=600)}
+else:
+    # Fall back to MySQL
+    DATABASES = {
+        "default": {
+            "ENGINE": os.environ.get("DB_ENGINE", "seagrass_project.pymysql_backend"),
+            "NAME": os.environ.get("DB_NAME", "seagrass"),
+            "USER": os.environ.get("DB_USER", "root"),
+            "PASSWORD": os.environ.get("DB_PASSWORD", ""),
+            "HOST": os.environ.get("DB_HOST", "localhost"),
+            "PORT": os.environ.get("DB_PORT", "3306"),
+        }
     }
-}
 
 
 # Password validation
