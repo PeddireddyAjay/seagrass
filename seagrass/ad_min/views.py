@@ -162,7 +162,7 @@ def managestatus(request):
 
 # FINAL REPORT
 
-from io import BytesIO
+def final_report(request, project_id):
     data = hydra.objects.get(project_id=project_id)
 
     buffer = BytesIO()
