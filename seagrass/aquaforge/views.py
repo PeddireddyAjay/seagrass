@@ -1,75 +1,11 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from django.contrib import messages
-from ad_min.models import seagrass,hydra
+from ad_min.models import seagrass, hydra
 from django.core.mail import send_mail
-
-# Create your views here.
-
-#HOME
-
-def aqua_home(request):
-    return render(request,"aquaforge/aqua_home.html")
-
-# aquaforge register and login:
-
-
-def aqua_register(request):
-    if request.method == 'POST':
-        name = request.POST.get('username')
-        email = request.POST.get('email')
-        phone = request.POST.get('phone')
-        department = request.POST.get('department')
-        print(f"Name: {name}, Email: {email}, Phone: {phone}, Department: {department}")
-        seagrass(name=name,email=email,phone=phone,department=department).save()
-        messages.success(request, f'Aquaforge Registration Successful, Kindly get the approval from admin for login credentials.')
-        return redirect('/')
-    return render(request,'aquaforge/reg_log.html')
-
-
-
-def aqua_login(request):
-    if request.method == 'POST':
-        email = request.POST['email']
-        password = request.POST['password']
-        try:
-            # Try to retrieve the user with the given email and password
-            user = seagrass.objects.get(email=email, password=password)
-
-            if user:
-                # Set the login field to True (1) upon successful login
-                user.login = True
-                user.save()
-
-                hydra_data = hydra.objects.filter().first()  # Use first() to avoid MultipleObjectsReturned
-
-                if hydra_data:  # Check if hydra_data exists
-                    project_id = hydra_data.project_id
-                    messages.info(request, f"{project_id} :: aquaforge Login Successful")
-                    return redirect("/aqua_home/")
-                else:
-                    messages.info(request, "No hydra data found.") 
-                    return redirect("/aqua_home/")
-            else:
-                messages.info(request, "Wrong Credentials")
-                return render(request, 'aquaforge/reg_log.html')
-        except seagrass.DoesNotExist:
-            # Handle case where the user with the provided credentials does not exist
-            messages.info(request, "Wrong Credentials")
-            return render(request, 'aquaforge/reg_log.html')
-
-    return render(request, 'aquaforge/reg_log.html')
-
-
-
-
-
 import json
 import datetime
 import hashlib
-from django.shortcuts import render, redirect
 import base64
-from django.core.mail import send_mail
-from django.contrib import messages
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad

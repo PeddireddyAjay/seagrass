@@ -1,17 +1,21 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from django.contrib import messages
-from ad_min.models import seagrass,hydra
-# from django.core.mail import send_mail
-
-# # Create your views here.
+from ad_min.models import seagrass, hydra
+from django.core.mail import send_mail
+import json
+import datetime
+import hashlib
+import base64
+from Crypto.Cipher import AES
+from Crypto.Random import get_random_bytes
+from Crypto.Util.Padding import pad, unpad
 
 # HOME
 
 def bio_home(request):
-    return render(request,"bio_monitor/bio_home.html")
+    return render(request, "bio_monitor/bio_home.html")
 
-# bio_monitor register and login:
-
+# BIO_MONITOR REGISTER AND LOGIN
 
 def bio_register(request):
     if request.method == 'POST':
@@ -20,11 +24,10 @@ def bio_register(request):
         phone = request.POST.get('phone')
         department = request.POST.get('department')
         print(f"Name: {name}, Email: {email}, Phone: {phone}, Department: {department}")
-        seagrass(name=name,email=email,phone=phone,department=department).save()
+        seagrass(name=name, email=email, phone=phone, department=department).save()
         messages.success(request, f'Bio_monitor Registration Successful, Kindly get the approval from admin for login credentials.')
         return redirect('/')
-    return render(request,'bio_monitor/reg_log.html')
-
+    return render(request, 'bio_monitor/reg_log.html')
 
 
 def bio_login(request):
@@ -60,16 +63,6 @@ def bio_login(request):
     return render(request, 'bio_monitor/reg_log.html')
 
 
-
-
-
-import json
-import datetime
-import hashlib
-from django.shortcuts import render, redirect
-import base64
-from django.core.mail import send_mail
-from django.contrib import messages
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
