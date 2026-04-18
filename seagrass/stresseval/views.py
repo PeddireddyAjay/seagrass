@@ -242,14 +242,14 @@ def stress_scan(request):
     return render(request,"stresseval/stress_scan.html",{'data': data})
 
 
-import joblib
-import pandas as pd
-import numpy as np
 from django.contrib import messages
 from django.shortcuts import redirect
 
 def stress_calculation(request, project_id):
     # Import ML dependencies lazily so the web process can boot on low-memory hosts.
+    import joblib
+    import numpy as np
+    import pandas as pd
     from sklearn.model_selection import train_test_split
     from sklearn.preprocessing import MinMaxScaler
     from pytorch_tabnet.tab_model import TabNetRegressor
