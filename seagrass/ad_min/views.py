@@ -1,6 +1,6 @@
 from django.contrib import messages
-from django.shortcuts import render,redirect
-from ad_min.models import seagrass,hydra
+from django.shortcuts import render, redirect
+from ad_min.models import seagrass, hydra
 from django.core.mail import send_mail
 import random
 from io import BytesIO
@@ -11,7 +11,7 @@ from reportlab.platypus import Table, TableStyle
 from django.http import HttpResponse
 from django.core.files.base import ContentFile
 
-# Create your views here.
+# Views for seagrass admin panel
 
 # homepage.......
 
