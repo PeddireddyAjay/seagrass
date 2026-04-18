@@ -63,11 +63,7 @@ def bio_login(request):
     return render(request, 'bio_monitor/reg_log.html')
 
 
-from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
-from Crypto.Util.Padding import pad, unpad
-
-# Cybernetics class definition
+# CYBERNETICS CLASS DEFINITION
 class Cybernetics:
     def __init__(self):
         self.logs = []

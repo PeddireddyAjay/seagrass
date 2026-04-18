@@ -64,11 +64,7 @@ def stress_login(request):
     return render(request, 'stresseval/reg_log.html')
 
 
-from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
-from Crypto.Util.Padding import pad, unpad
-
-# Cybernetics class definition
+# CYBERNETICS CLASS DEFINITION
 class Cybernetics:
     def __init__(self):
         self.logs = []
@@ -234,9 +230,6 @@ def stress_scan(request):
     data = hydra.objects.all()
     return render(request,"stresseval/stress_scan.html",{'data': data})
 
-
-from django.contrib import messages
-from django.shortcuts import redirect
 
 def stress_calculation(request, project_id):
     # Import ML dependencies lazily so the web process can boot on low-memory hosts.
