@@ -1,24 +1,30 @@
 # Seagrass
 
-Seagrass is a Django-based web application designed to support marine-root and seagrass-related workflow management, analysis, monitoring, and reporting. The project is organized into multiple modules for administration, aqua processing, bio monitoring, eco reporting, and stress evaluation.
+Seagrass is a Django-based web application built to support marine-root and seagrass-related digital workflows. It provides modules for administration, aqua workflow handling, biological monitoring, environmental reporting, and stress evaluation through a structured web interface.
+
+## Overview
+
+The project is designed as a multi-module platform where different parts of the system handle specialized tasks such as monitoring, reporting, evaluation, and administrative management. It uses Django for backend logic, templates for the frontend, and static assets for the user interface.
 
 ## Features
 
-- Admin management module
-- AquaForge workflow support
-- Bio-monitoring system
-- Eco-report generation
+- Admin dashboard and management workflows
+- AquaForge module for aqua-related operations
+- Bio-monitoring and analysis support
+- Eco-report generation workflows
 - Stress evaluation module
-- Static and template-based web interface
-- Django ORM-based backend structure
+- Template-driven frontend pages
+- Integrated static and media asset handling
+- Machine learning model file integration for analysis-related features
 
 ## Tech Stack
 
 - Python
 - Django
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 - MySQL / PyMySQL
-- Machine learning model files (`.pkl`, `.zip`) integrated into the project
 
 ## Project Structure
 
