@@ -2,6 +2,14 @@ from django.contrib import messages
 from django.shortcuts import render,redirect
 from ad_min.models import seagrass,hydra
 from django.core.mail import send_mail
+import random
+from io import BytesIO
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import A4
+from reportlab.lib import colors
+from reportlab.platypus import Table, TableStyle
+from django.http import HttpResponse
+from django.core.files.base import ContentFile
 
 # Create your views here.
 
@@ -68,7 +76,6 @@ def requirements(request):
 
 # #  approve & reject..........
 
-import random
 def approve(request,id):
     data=seagrass.objects.get(id=id)
     password=random.randint(1000,9999)
@@ -156,17 +163,6 @@ def managestatus(request):
 # FINAL REPORT
 
 from io import BytesIO
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import A4
-from reportlab.lib import colors
-from reportlab.platypus import Table, TableStyle
-from django.http import HttpResponse
-from django.core.files.base import ContentFile
-from django.shortcuts import redirect
-from django.contrib import messages
-
-
-def final_report(request, project_id):
     data = hydra.objects.get(project_id=project_id)
 
     buffer = BytesIO()
