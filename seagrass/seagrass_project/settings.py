@@ -22,7 +22,7 @@ load_dotenv(BASE_DIR.parent / ".env")
 
 # Security
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "change-me-in-production")
-DEBUG = os.environ.get("DEBUG", "True") == "True"
+DEBUG = True  # Temporarily enabled to see errors
 ALLOWED_HOSTS = [
     host.strip()
     for host in os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
