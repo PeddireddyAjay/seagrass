@@ -70,7 +70,6 @@ from django.shortcuts import render, redirect
 import base64
 from django.core.mail import send_mail
 from django.contrib import messages
-import twofish
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad

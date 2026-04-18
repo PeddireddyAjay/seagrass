@@ -242,9 +242,6 @@ def stress_scan(request):
     return render(request,"stresseval/stress_scan.html",{'data': data})
 
 
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from pytorch_tabnet.tab_model import TabNetRegressor
 import joblib
 import pandas as pd
 import numpy as np
@@ -252,6 +249,11 @@ from django.contrib import messages
 from django.shortcuts import redirect
 
 def stress_calculation(request, project_id):
+    # Import ML dependencies lazily so the web process can boot on low-memory hosts.
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import MinMaxScaler
+    from pytorch_tabnet.tab_model import TabNetRegressor
+
     hydra_object = hydra.objects.get(project_id=project_id)
 
     # -----------------------------
