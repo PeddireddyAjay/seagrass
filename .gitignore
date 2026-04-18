@@ -1,70 +1,38 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+*.pyo
+*.pyd
 
-# Virtual Environment
-virtualenv/
+# Virtual environments
 venv/
-ENV/
 env/
-.venv
+virtualenv/
+seagrass/virtualenv/
 
 # Django
-*.log
-local_settings.py
 db.sqlite3
-db.sqlite3-journal
-/media
-/static
+*.log
+staticfiles/
+media/
 
-# IDE
+# Environment files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.DS_Store
 
-# Environment variables
-.env
-.env.local
+# Python packaging
+*.egg-info/
+build/
+dist/
 
-# Test coverage
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Test / cache
 .pytest_cache/
-
-# Misc
-*.bak
-*.tmp
-.project
-.pydevproject
-.settings/
+.mypy_cache/
+.coverage
+htmlcov/
