@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <base href="/static/ad_min/admin_home/">
+    <meta charset="utf-8">
+    <title>admin_requirements</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+
+
+
+  <meta charset="UTF-8">
+  <title>Requirement Form</title>
+ <style>
+ 
+
+  .requirement-container {
+    width: 340px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin: 70px auto;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+  }
+
+  .requirement-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  select,
+  button {
+    width: 92%;
+    padding: 8px;
+    margin-bottom: 14px;
+    border: 1.5px solid #aaa;
+    border-radius: 6px;
+    font-size: 14.5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000;
+    backdrop-filter: blur(4px);
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  select:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #666;
+  }
+
+  option {
+    color: #000;
+  }
+
+  button {
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    background-color: transparent;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+
+
+
+</head>
+<body>
+
+
+    <script>
+
+		{% for msg in messages %}
+			alert('{{ msg }}')
+		{% endfor %}
+
+	</script>
+
+
+
+        <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
+                <a href="index.html" class="navbar-brand">
+                    <h1>ADMIN</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="/adminhome/" class="nav-item nav-link ">HOME</a>
+                        <a href="/requirements/" class="nav-item nav-link active">REQUIREMENTS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">APPROVAL</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="/aquaapprove/" class="dropdown-item">AQUAFORGE</a>
+                                <a href="/stressapprove/" class="dropdown-item">STRESSEVAL</a>
+                                <a href="/bioapprove/" class="dropdown-item">BIO-MONITOR</a>
+                                <a href="/ecoapprove/" class="dropdown-item">ECO-SPORT</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">REPORTS</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="/aquamanage/" class="dropdown-item">AQUAFORGE</a>
+                                <a href="/stressmanage/" class="dropdown-item">STRESSEVAL</a>
+                                <a href="/biomanage/" class="dropdown-item">BIO-MONITOR</a>
+                                <a href="/ecomanage/" class="dropdown-item">ECO-SPORT</a>
+                            </div>
+                        </div>
+                        <a href="/managestatus/" class="nav-item nav-link ">LIVE STATUS</a>
+                        <a href="/adminlogout/" class="nav-item nav-link">LOGOUT</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pb-5 hero-header bg-light mb-5" >
+        <div class="container py-5" >
+            <div class="row g-5 align-items-center mb-5" style="margin-top:-150px;">
+
+
+                
+                
+
+                    <div class="requirement-container">
+                        <h2>REQUIREMENTS</h2>
+                        <form action="/requirements/" method="POST">
+                        <!-- CSRF Token if Django -->
+                         {% csrf_token %} 
+
+                        <select name="material_type" required>
+                            <option value="" disabled selected>Select Material Type</option>
+                            <option value="Plastic">Plastic</option>
+                            <option value="Fiber-reinforced plastic">Fiber-reinforced plastic</option>
+                            <option value="Recycled polymer">Recycled polymer</option>
+                            <option value="Transparent acrylic">Transparent acrylic</option>
+                            <option value="Biodegradable plastic">Biodegradable plastic</option>
+                        </select>
+
+                        <select name="box_size" required>
+                            <option value="" disabled selected>Select Box Size</option>
+                            <option value="Small">Small: 50 cm × 50 cm × 30 cm</option>
+                            <option value="Medium">Medium: 80 cm × 80 cm × 40 cm</option>
+                            <option value="Large">Large: 100 cm × 100 cm × 50 cm</option>
+                            <option value="Extra Large">Extra Large: 150 cm × 100 cm × 60 cm</option>
+                        </select>
+
+                       <select name="ocean_depth_range" required>
+                                <option value="" disabled selected>Select Ocean Depth Range</option>
+                                    <option value="1">1 meter</option>
+                                    <option value="2">2 meters</option>
+                                    <option value="3">3 meters</option>
+                                    <option value="4">4 meters</option>
+                                    <option value="5">5 meters</option>
+                                    <option value="6">6 meters</option>
+                                    <option value="7">7 meters</option>
+                                    <option value="8">8 meters</option>
+                                    <option value="9">9 meters</option>
+                                    <option value="10">10 meters</option>
+                                    <option value="11">11 meters</option>
+                                    <option value="12">12 meters</option>
+                                    <option value="13">13 meters</option>
+                                    <option value="14">14 meters</option>
+                                    <option value="15">15 meters</option>
+                                    <option value="16">16 meters</option>
+                                    <option value="17">17 meters</option>
+                                    <option value="18">18 meters</option>
+                                    <option value="19">19 meters</option>
+                                    <option value="20">20 meters</option>
+                                    <option value="21">21 meters</option>
+                                    <option value="22">22 meters</option>
+                                    <option value="23">23 meters</option>
+                                    <option value="24">24 meters</option>
+                                    <option value="25">25 meters</option>
+                                    <option value="26">26 meters</option>
+                                    <option value="27">27 meters</option>
+                                    <option value="28">28 meters</option>
+                                    <option value="29">29 meters</option>
+                                    <option value="30">30 meters</option>
+
+                            </select>
+
+
+                        <select name="seagrass_type" required>
+                            <option value="" disabled selected>Select Seagrass Type</option>
+                            <option value="Zostera marina">Zostera marina</option>
+                            <option value="Halophila ovalis">Halophila ovalis</option>
+                            <option value="Cymodocea serrulata">Cymodocea serrulata</option>
+                            <option value="Thalassia hemprichii">Thalassia hemprichii</option>
+                        </select>
+
+                        <button type="submit">Submit</button>
+                        <button type="button" onclick="history.back()">Back</button>
+                        </form>
+                    </div>
+
+
+
+
+
+            </div>
+            
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+<!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+
+
+  
+
+</body>
+</html>

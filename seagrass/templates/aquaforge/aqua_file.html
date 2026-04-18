@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+
+
+     <base href="/static/aquaforge/aqua_home/">
+        <meta charset="utf-8">
+        <title>admin_requirements</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+
+
+
+
+ <title>aqua_admin_protocols </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+
+
+<style>
+
+
+.table-container {
+    width: 200%;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    min-width: 1200px; /* Force wide table */
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+thead th {
+    background-color:#00d084 ; /* Pink header */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 15px;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.fancy-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+p strong {
+    font-size: 14px;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+
+
+<script>
+		{% for msg in messages %}
+			alert('{{ msg }}')
+		{% endfor %}
+	</script>
+
+
+
+    <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        
+
+        
+               <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary"><i></i>AQUAFORGE</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="/aqua_home/" class="nav-item nav-link ">HOME</a>
+                        <a href="/ad_min_protocols/" class="nav-item nav-link ">REQUIREMENTS</a>
+                        <a href="/aqua_scan/" class="nav-item nav-link ">ANALYZE</a>
+                        <a href="/aqua_file/" class="nav-item nav-link active">REPORT</a>
+                        
+                        <a href="/aqua_logout/" class="nav-item nav-link">LOGOUT</a>
+                    </div>
+                   
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="img/aqua.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row gy-0 gx-5">
+                                <div class="col-lg-0 col-xl-5"></div>
+                                <div class="col-xl-7 animated fadeInLeft">
+                                   
+                                        
+
+
+                                           <div style="margin-top:-200px;margin-left:-500px;">
+                <h2 style="font-weight:bold;color: #00d084;">AQUAFORGE FINAL REPORT</h2>                        
+                    <div class="table-container">
+                        
+                        <table>
+                                <thead>
+                                    <tr>
+                                        <th>PROJECT ID</th>
+                                        <th>SURFACE AREA (cm²)</th>
+                                        <th>VOLUME OF MATERIAL (cm³)</th>
+                                        <th>WEIGHT OF MATERIAL (grams)</th>
+                                        <th>WEIGHT (Kg)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if data %}
+                                        {% for item in data %}
+                                            <tr>
+                                                <td style="text-align:center;">{{ item.project_id }}</td>
+                                                <td style="text-align:center;">{{ item.surface_area_of_box }}</td>
+                                                <td style="text-align:center;">{{ item.volume_of_material }}</td>
+                                                <td style="text-align:center;">{{ item.weight_of_material }}</td>
+                                                <td style="text-align:center;">{{ item.weight_in_kilograms }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <tr>
+                                            <td colspan="5" style="text-align:center;">NO DATA &nbsp;AVAILABLE</td>
+                                        </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+
+                    </div> 
+
+
+                  </div>
+
+
+
+                
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

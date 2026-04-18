@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin Login</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+background:url('/static/ad_min/admin_login/admin1.jpg') no-repeat center center fixed;
+background-size:cover;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.login-container{
+width:400px;
+background:rgba(255,255,255,0.15);
+padding:40px 30px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+margin:60px auto;
+backdrop-filter:blur(10px);
+box-sizing:border-box;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#fff;
+font-size:28px;
+letter-spacing:1px;
+}
+
+label{
+display:block;
+margin-bottom:8px;
+color:#fff;
+font-weight:bold;
+}
+
+.input-group{
+position:relative;
+margin-bottom:25px;
+}
+
+input[type="text"],
+input[type="password"]{
+width:100%;
+padding:12px 40px 12px 12px;
+border:2px solid #fff;
+border-radius:6px;
+font-size:16px;
+outline:none;
+box-sizing:border-box;
+background-color:rgba(255,255,255,0.1);
+color:#fff;
+}
+
+input::placeholder{
+color:rgba(255,255,255,0.7);
+}
+
+input:focus{
+border:2px solid #ffffff;
+background-color:rgba(255,255,255,0.2);
+}
+
+.eye-icon{
+position:absolute;
+right:12px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+font-size:18px;
+color:#fff;
+}
+
+button{
+width:100%;
+padding:12px;
+border-radius:6px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:background 0.3s;
+box-sizing:border-box;
+background-color:transparent;
+color:#fff;
+border:2px solid #fff;
+margin-bottom:15px;
+}
+
+button:hover{
+background-color:rgba(255,255,255,0.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<script>
+{% for msg in messages %}
+alert('{{ msg }}')
+{% endfor %}
+</script>
+
+<div class="login-container">
+
+<h2>ADMIN LOGIN</h2>
+
+<form action="/adminlogin/" method="POST">
+{% csrf_token %}
+
+<label>Username</label>
+<div class="input-group">
+<input type="text" name="email" placeholder="Username" autocomplete="off" required>
+</div>
+
+<label>Password</label>
+<div class="input-group">
+<input type="password" id="password" name="password" placeholder="Password" autocomplete="off" required>
+<span class="eye-icon" onclick="togglePassword()">👁</span>
+</div>
+
+<button type="submit">Login</button>
+<button type="button" onclick="goBack()">Back</button>
+
+</form>
+
+</div>
+
+<script>
+
+function togglePassword()
+{
+var pwd=document.getElementById("password");
+
+if(pwd.type==="password")
+{
+pwd.type="text";
+}
+else
+{
+pwd.type="password";
+}
+}
+
+function goBack()
+{
+window.history.back();
+}
+
+</script>
+
+</body>
+</html>

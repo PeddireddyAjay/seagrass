@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bio-monitor Register and Login</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('/static/bio_monitor/bio-monitor/ab2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px; /* Reduced from 40px */
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+
+  .container-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -15px; /* Reduced from 50px */
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .form-container {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px; /* changed from 20px */
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  box-sizing: border-box;
+  color: white;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 12px; /* changed from 20px */
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 12px; /* changed from 16px */
+}
+
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 6px 30px 6px 8px; /* Reduced padding */
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    backdrop-filter: blur(4px);
+  }
+
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  input:focus {
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 12px;
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .switch-text {
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 4px;
+  }
+
+  .switch-text a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+</style>
+
+
+
+</head>
+<body>
+
+    <script>
+
+		{% for msg in messages %}
+			alert('{{ msg }}')
+		{% endfor %}
+
+	</script>
+
+
+  <h1>BIO-MONITOR REGISTER AND LOGIN</h1>
+
+  <div class="container-wrapper">
+    <!-- Login Container -->
+    <div class="form-container" id="biologin">
+      <h2>BIO-MONITOR LOGIN</h2>
+      <form action="/bio_login/"  method="POST">
+      {% csrf_token %}
+        <label for="login-username">Username</label>
+        <div class="input-group">
+          <input type="text" name="email" placeholder="Username" autocomplete="off" required>
+        </div>
+
+        <label for="login-password">Password</label>
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password" autocomplete="off" required>
+          <span class="eye-icon" onclick="togglePassword('login-password')">👁️</span>
+        </div>
+
+        <button type="submit">Login</button>
+        <button type="button" onclick="goBack()">Back</button>
+
+        <div class="switch-text">
+          Don't have an account? <a href="/bio_register/">Sign up</a>
+        </div>
+      </form>
+    </div>
+
+    <!-- Signup Container -->
+    <div class="form-container" id="biosignup">
+      <h2>BIO-MONITOR SIGNUP</h2>
+      <form action="/bio_register/"  method="POST">
+      {% csrf_token %}
+        <label for="signup-username">Username</label>
+        <div class="input-group">
+          <input type="text" name="username" placeholder="Username" autocomplete="off" required>
+        </div>
+
+        <label for="signup-email">Email</label>
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+        </div>
+
+        <label for="signup-phone">Phone Number</label>
+        <div class="input-group">
+                    <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" required pattern="[6-9][0-9]{9}" title="Phone number must start with 6, 7, 8, or 9 and must be 10 digits long">
+
+        </div>
+
+        <label for="signup-dept">Department</label>
+        <div class="input-group">
+          <input type="text" name="department" placeholder="Department" autocomplete="off" value="BIO-MONITOR" readonly required>
+        </div>
+
+        <button type="submit">Signup</button>
+        <button type="button" onclick="goBack()">Back</button>
+
+        <div class="switch-text">
+          Already registered? <a href="/bio_register/">Login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script>
+document.querySelector('form[action="/aqua_register/"]').addEventListener('submit', function(event) {
+  const phoneInput = document.querySelector('input[name="phone"]');
+  const phone = phoneInput.value;
+
+  const phonePattern = /^[6-9][0-9]{9}$/;
+  if (!phonePattern.test(phone)) {
+    alert("Phone number must start with 6, 7, 8, or 9 and must be exactly 10 digits.");
+    event.preventDefault();
+  }
+});
+</script>
+
+
+
+
+  <script>
+    function togglePassword(id) {
+      const pwd = document.getElementById(id);
+      pwd.type = pwd.type === "password" ? "text" : "password";
+    }
+
+    function goBack() {
+    window.location.href = "/";
+  }
+
+   
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+
+
+    <base href="/static/ad_min/admin_home/">
+    <meta charset="utf-8">
+    <title>ECO_MANAGE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+	
+
+
+
+	 <meta charset="UTF-8">
+    <title>aquaforge_table</title>
+  
+
+<style>
+    
+
+    .container {
+        width: 60%;
+        margin: 50px auto;
+        padding-left: -10px;
+    }
+
+    .heading-section {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: white;
+        font-family: 'Lato', sans-serif; /* ✅ Font updated */
+        font-weight: 900;                /* ✅ Bold to 900 */
+    }
+
+    h3.table-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #ffcccc;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 10px 12px;
+        border: none; /* ✅ removed black border */
+        font-size: 14px;
+    }
+
+    thead {
+        background-color: #1ad0d1; /* ✅ header color */
+        color: black;
+        font-weight: bold;         /* ✅ bold header text */
+    }
+
+    tbody tr {
+        background-color: white; /* ✅ row background color */
+        color: black;             /* ✅ row content color */
+    }
+
+    .btn-approve, .btn-reject {
+        font-size: 10px;
+        padding: 2px 4px;
+        width: 70px;
+        border-radius: 10px; /* ✅ button curved */
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-approve {
+        background-color: #00c32d; /* ✅ updated color */
+        color: white;
+    }
+
+    .btn-approve:hover {
+        background-color: #00c32db5; /* ✅ hover color */
+    }
+
+    .btn-reject {
+        background-color: #cd0417; /* ✅ updated color */
+        color: white;
+    }
+
+    .btn-reject:hover {
+        background-color: #cd04179e; /* ✅ hover color */
+    }
+
+    .approved {
+        color: #28a745;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    .no-action {
+        color: #ccc;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+	</head>
+
+<body>
+
+	<script>
+
+		{% for msg in messages %}
+			alert('{{ msg }}')
+		{% endfor %}
+
+	</script>
+
+
+
+
+
+    
+        <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
+                <a href="/adminhome/" class="navbar-brand">
+                    <h1>ADMIN</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="/adminhome/" class="nav-item nav-link ">HOME</a>
+                        <a href="/requirements/" class="nav-item nav-link">REQUIREMENTS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">APPROVAL</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="/aquaapprove/" class="dropdown-item">AQUAFORGE</a>
+                                <a href="/stressapprove/" class="dropdown-item">STRESSEVAL</a>
+                                <a href="/bioapprove/" class="dropdown-item">BIO-MONITOR</a>
+                                <a href="/ecoapprove/" class="dropdown-item">ECO-SPORT</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">REPORTS</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="/aquamanage/" class="dropdown-item">AQUAFORGE</a>
+                                <a href="/stressmanage/" class="dropdown-item">STRESSEVAL</a>
+                                <a href="/biomanage/" class="dropdown-item">BIO-MONITOR</a>
+                                <a href="/ecomanage/" class="dropdown-item active">ECO-SPORT</a>
+                            </div>
+                        </div>
+                        <a href="/managestatus/" class="nav-item nav-link">LIVE STATUS</a>
+                        <a href="/adminlogout/" class="nav-item nav-link">LOGOUT</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pb-5 hero-header bg-light mb-5" style="margin-top: -170px;">
+        <div class="container py-5" style="margin-bottom:100px;">
+            <div class="row g-5 align-items-center mb-5" >
+
+
+                
+
+
+
+                
+				<div class="container">
+        <h2 class="heading-section" style=" font-family: 'Lato', sans-serif; font-weight: 900;">ECO-REPORT FINAL REPORT</h2>
+        
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>PROJECT ID</th>
+                    <th>AREA USED (m²)</th>
+                    <th>CO₂ ABSORBED PER YEAR (kg)</th>
+                    <th>MARINE ANIMALS SUPPORTED (count)</th>
+                    <th>COASTAL PROTECTION SCORE (/10)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in data %}
+                    <tr>
+                        <td>{{ i.project_id }}</td>
+                        <td>{{ i.area_used }}</td>
+                        <td>{{ i.co2_absorbed }}</td>
+                        <td>{{ i.animals_supported }}</td>
+                        <td>{{ i.protection_score }}</td>
+
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+                
+
+                  
+
+
+
+
+
+            </div>
+            
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+<!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+
+
+</body>
+</html>

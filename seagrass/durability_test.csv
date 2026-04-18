@@ -1,0 +1,501 @@
+material_type,box_size,length_cm,width_cm,height_cm,surface_area_of_box,volume_of_material,weight_of_material,weight_in_kilograms,ocean_depth_range,seagrass_type,durability_score
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,24.87,Cymodocea serrulata,85.29
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,9.92,Thalassia hemprichii,94.04
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.3,Halophila ovalis,84.18
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,22.24,Cymodocea serrulata,81.82
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,10.75,Halophila ovalis,89.0
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.04,Cymodocea serrulata,83.66
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.0,Zostera marina,81.09
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,28.53,Zostera marina,92.23
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,26.18,Cymodocea serrulata,94.62
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,29.63,Halophila ovalis,81.87
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,6.26,Thalassia hemprichii,94.33
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.09,Thalassia hemprichii,87.56
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.28,Zostera marina,83.1
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.09,Halophila ovalis,83.17
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,8.46,Cymodocea serrulata,86.44
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,15.62,Halophila ovalis,88.65
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,27.74,Cymodocea serrulata,94.25
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,3.87,Halophila ovalis,84.36
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,16.7,Halophila ovalis,94.0
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.51,Halophila ovalis,94.6
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.18,Cymodocea serrulata,92.72
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.68,Thalassia hemprichii,87.93
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.41,Thalassia hemprichii,94.74
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,10.14,Zostera marina,94.13
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,13.22,Halophila ovalis,91.37
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,5.24,Thalassia hemprichii,89.84
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.58,Halophila ovalis,82.41
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.17,Thalassia hemprichii,81.43
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,27.25,Halophila ovalis,94.93
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.39,Halophila ovalis,87.84
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.36,Halophila ovalis,91.2
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,10.79,Halophila ovalis,87.46
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.2,Halophila ovalis,82.11
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,12.92,Thalassia hemprichii,92.39
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.95,Cymodocea serrulata,85.45
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,21.43,Thalassia hemprichii,84.2
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.49,Halophila ovalis,92.29
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.53,Thalassia hemprichii,88.96
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.33,Cymodocea serrulata,87.24
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,11.62,Cymodocea serrulata,94.27
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,25.64,Cymodocea serrulata,94.61
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,20.77,Cymodocea serrulata,94.01
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.4,Thalassia hemprichii,85.45
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.74,Zostera marina,88.85
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.83,Zostera marina,81.2
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,23.39,Thalassia hemprichii,93.1
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.22,Thalassia hemprichii,91.53
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,12.38,Halophila ovalis,90.75
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,9.3,Cymodocea serrulata,87.36
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,20.42,Zostera marina,81.54
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.7,Thalassia hemprichii,83.44
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,4.13,Cymodocea serrulata,84.16
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.34,Halophila ovalis,81.69
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,11.58,Thalassia hemprichii,89.34
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.04,Zostera marina,93.76
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,6.92,Halophila ovalis,83.84
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,26.02,Halophila ovalis,91.4
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.79,Cymodocea serrulata,90.58
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,1.78,Zostera marina,88.78
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,25.16,Thalassia hemprichii,81.29
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,24.81,Thalassia hemprichii,82.89
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.23,Zostera marina,81.23
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,12.13,Halophila ovalis,91.07
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.57,Zostera marina,89.58
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,5.75,Thalassia hemprichii,90.42
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.3,Cymodocea serrulata,89.0
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,29.19,Zostera marina,85.47
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.37,Halophila ovalis,92.92
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,13.71,Zostera marina,81.17
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,1.98,Cymodocea serrulata,92.36
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.53,Halophila ovalis,83.56
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,18.92,Cymodocea serrulata,93.09
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.79,Thalassia hemprichii,86.18
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.7,Cymodocea serrulata,85.09
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.84,Zostera marina,86.78
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.84,Zostera marina,84.13
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.12,Thalassia hemprichii,82.09
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,15.91,Zostera marina,91.61
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,19.35,Halophila ovalis,82.66
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.33,Thalassia hemprichii,81.84
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,2.21,Halophila ovalis,91.64
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,9.34,Thalassia hemprichii,81.52
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,18.67,Thalassia hemprichii,83.2
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,21.2,Thalassia hemprichii,90.29
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,15.7,Thalassia hemprichii,86.26
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.72,Halophila ovalis,83.21
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.27,Cymodocea serrulata,90.81
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,4.39,Cymodocea serrulata,94.62
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.19,Halophila ovalis,88.67
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.02,Halophila ovalis,94.54
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,27.21,Zostera marina,85.1
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,3.65,Cymodocea serrulata,84.61
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,25.31,Cymodocea serrulata,84.58
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,15.09,Zostera marina,84.27
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,3.64,Halophila ovalis,90.56
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,9.46,Halophila ovalis,86.94
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,14.14,Cymodocea serrulata,92.52
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.41,Zostera marina,83.81
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,9.26,Zostera marina,90.99
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,16.61,Thalassia hemprichii,92.78
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,16.83,Zostera marina,86.18
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,28.85,Halophila ovalis,81.23
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.91,Cymodocea serrulata,88.88
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,1.67,Thalassia hemprichii,87.4
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,21.74,Cymodocea serrulata,86.06
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.95,Cymodocea serrulata,84.22
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,15.15,Zostera marina,90.93
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,7.53,Zostera marina,91.07
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,29.33,Cymodocea serrulata,83.02
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.36,Halophila ovalis,81.81
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,2.98,Halophila ovalis,81.37
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,27.02,Thalassia hemprichii,93.87
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,25.91,Zostera marina,90.78
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,7.01,Cymodocea serrulata,89.82
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.38,Cymodocea serrulata,94.36
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.56,Thalassia hemprichii,89.64
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,17.48,Thalassia hemprichii,93.18
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.77,Halophila ovalis,82.94
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,24.07,Halophila ovalis,85.6
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.91,Zostera marina,87.39
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,10.0,Thalassia hemprichii,82.15
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,12.91,Thalassia hemprichii,85.35
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.49,Zostera marina,90.99
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.28,Zostera marina,91.01
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.15,Zostera marina,94.03
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,15.38,Halophila ovalis,85.89
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,4.02,Cymodocea serrulata,93.39
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,23.5,Halophila ovalis,87.37
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,15.05,Cymodocea serrulata,81.67
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,15.12,Zostera marina,82.31
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,7.18,Zostera marina,83.32
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.52,Cymodocea serrulata,94.62
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,8.91,Thalassia hemprichii,91.18
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,13.43,Cymodocea serrulata,89.55
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,8.53,Thalassia hemprichii,91.4
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,2.54,Cymodocea serrulata,85.14
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.63,Thalassia hemprichii,88.02
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,23.44,Halophila ovalis,85.25
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,17.77,Thalassia hemprichii,91.38
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,4.37,Halophila ovalis,81.51
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,12.49,Zostera marina,82.64
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.17,Halophila ovalis,90.07
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.04,Cymodocea serrulata,84.12
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.91,Zostera marina,92.16
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.81,Halophila ovalis,89.78
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,28.67,Halophila ovalis,84.39
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,22.59,Thalassia hemprichii,87.58
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,9.03,Halophila ovalis,92.72
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.73,Zostera marina,86.81
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,17.82,Thalassia hemprichii,84.34
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,10.9,Thalassia hemprichii,93.73
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.69,Zostera marina,83.85
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.9,Halophila ovalis,82.4
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.65,Zostera marina,93.74
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.94,Zostera marina,88.59
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.54,Thalassia hemprichii,82.86
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.56,Cymodocea serrulata,86.36
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.39,Zostera marina,94.36
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,26.95,Cymodocea serrulata,87.47
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,11.09,Zostera marina,87.78
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,27.59,Cymodocea serrulata,89.21
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,3.26,Cymodocea serrulata,91.48
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,23.71,Halophila ovalis,89.57
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.94,Thalassia hemprichii,92.86
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.39,Zostera marina,90.81
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,4.57,Cymodocea serrulata,88.15
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.35,Halophila ovalis,87.14
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,25.36,Halophila ovalis,83.23
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.48,Halophila ovalis,84.83
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.77,Zostera marina,85.33
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,15.01,Halophila ovalis,91.64
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,4.14,Thalassia hemprichii,90.93
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,6.76,Halophila ovalis,81.15
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.83,Zostera marina,88.49
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,3.67,Cymodocea serrulata,82.9
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,8.58,Cymodocea serrulata,83.54
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,28.32,Cymodocea serrulata,90.47
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,7.35,Halophila ovalis,93.28
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,20.49,Cymodocea serrulata,88.62
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.89,Cymodocea serrulata,91.26
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.85,Thalassia hemprichii,86.1
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.57,Halophila ovalis,83.25
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,14.96,Thalassia hemprichii,84.39
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.81,Cymodocea serrulata,88.31
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.31,Halophila ovalis,86.97
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,21.71,Zostera marina,91.15
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.45,Cymodocea serrulata,84.58
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,20.08,Cymodocea serrulata,81.96
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,7.68,Halophila ovalis,86.35
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.4,Thalassia hemprichii,88.42
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.08,Thalassia hemprichii,86.64
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.17,Thalassia hemprichii,83.73
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,26.96,Thalassia hemprichii,93.16
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,28.72,Halophila ovalis,94.25
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,27.29,Halophila ovalis,88.03
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,16.63,Cymodocea serrulata,83.41
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,10.97,Thalassia hemprichii,94.24
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,27.99,Halophila ovalis,91.54
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,23.34,Thalassia hemprichii,88.28
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,5.68,Zostera marina,93.9
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.21,Halophila ovalis,86.82
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,1.39,Thalassia hemprichii,90.68
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.27,Cymodocea serrulata,81.25
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,8.4,Zostera marina,94.45
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,2.78,Thalassia hemprichii,84.9
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,13.21,Halophila ovalis,88.06
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,21.36,Thalassia hemprichii,90.24
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,19.17,Zostera marina,95.0
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.78,Halophila ovalis,92.34
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,9.34,Thalassia hemprichii,85.51
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.12,Cymodocea serrulata,89.24
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,19.76,Cymodocea serrulata,81.4
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,10.46,Thalassia hemprichii,92.91
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,15.31,Halophila ovalis,84.64
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,6.61,Thalassia hemprichii,89.31
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,20.88,Thalassia hemprichii,86.16
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,29.41,Thalassia hemprichii,83.5
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,19.32,Halophila ovalis,94.93
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,14.85,Zostera marina,82.41
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.28,Halophila ovalis,88.58
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,5.53,Thalassia hemprichii,89.8
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,26.68,Thalassia hemprichii,88.41
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,1.28,Thalassia hemprichii,91.97
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.96,Halophila ovalis,85.73
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.84,Cymodocea serrulata,81.4
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,20.34,Thalassia hemprichii,81.2
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,15.61,Thalassia hemprichii,94.52
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.85,Thalassia hemprichii,92.95
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.11,Zostera marina,94.14
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,29.49,Zostera marina,85.9
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,18.68,Thalassia hemprichii,88.27
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,23.13,Halophila ovalis,94.39
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,26.15,Cymodocea serrulata,84.72
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,14.29,Thalassia hemprichii,83.15
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.91,Halophila ovalis,88.84
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,8.81,Thalassia hemprichii,84.78
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,18.31,Thalassia hemprichii,94.3
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,18.67,Halophila ovalis,85.6
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,12.52,Cymodocea serrulata,86.79
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.6,Cymodocea serrulata,88.66
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.85,Thalassia hemprichii,88.19
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,2.13,Halophila ovalis,86.1
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.62,Halophila ovalis,88.14
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,18.66,Cymodocea serrulata,90.56
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,1.76,Halophila ovalis,88.55
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,14.8,Zostera marina,92.28
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,11.48,Halophila ovalis,84.24
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,1.18,Cymodocea serrulata,91.37
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,20.63,Zostera marina,87.7
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,11.17,Zostera marina,83.49
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.69,Zostera marina,86.61
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.52,Zostera marina,85.05
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.62,Cymodocea serrulata,85.73
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,11.06,Zostera marina,86.82
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.28,Cymodocea serrulata,92.24
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,3.7,Cymodocea serrulata,94.82
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,23.51,Cymodocea serrulata,87.09
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,4.54,Cymodocea serrulata,94.22
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,9.56,Zostera marina,85.24
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,10.11,Thalassia hemprichii,83.12
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,28.05,Cymodocea serrulata,92.59
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,21.17,Thalassia hemprichii,82.8
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,17.49,Zostera marina,92.13
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,29.18,Thalassia hemprichii,85.19
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,25.21,Cymodocea serrulata,88.55
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,9.41,Thalassia hemprichii,84.75
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,13.44,Halophila ovalis,82.88
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,19.97,Cymodocea serrulata,89.54
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,27.19,Cymodocea serrulata,85.17
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.56,Thalassia hemprichii,94.23
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,20.76,Zostera marina,84.47
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.3,Halophila ovalis,82.31
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,12.74,Halophila ovalis,86.0
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,26.49,Halophila ovalis,84.98
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,6.99,Zostera marina,93.56
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,22.62,Cymodocea serrulata,89.0
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,14.13,Cymodocea serrulata,82.42
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,2.71,Cymodocea serrulata,89.94
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.75,Cymodocea serrulata,83.02
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,10.24,Cymodocea serrulata,94.25
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.7,Halophila ovalis,94.62
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.8,Halophila ovalis,92.29
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.02,Thalassia hemprichii,91.16
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,21.65,Thalassia hemprichii,94.34
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,20.03,Zostera marina,92.41
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,5.3,Halophila ovalis,85.51
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,11.87,Thalassia hemprichii,87.64
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.74,Halophila ovalis,88.71
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.47,Cymodocea serrulata,89.9
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,25.91,Cymodocea serrulata,89.03
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.95,Thalassia hemprichii,84.66
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,16.13,Halophila ovalis,83.53
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,28.35,Zostera marina,89.89
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,18.13,Thalassia hemprichii,82.62
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,20.38,Zostera marina,93.07
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.53,Cymodocea serrulata,89.65
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,19.22,Zostera marina,87.33
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,22.5,Halophila ovalis,85.08
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.05,Thalassia hemprichii,93.92
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.74,Cymodocea serrulata,81.4
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,16.44,Zostera marina,92.5
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.36,Halophila ovalis,87.22
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,23.74,Cymodocea serrulata,94.43
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,29.03,Thalassia hemprichii,94.5
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,14.39,Halophila ovalis,83.8
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,6.6,Thalassia hemprichii,92.56
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.38,Cymodocea serrulata,90.15
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,13.91,Zostera marina,82.66
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,13.4,Halophila ovalis,81.32
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,18.58,Cymodocea serrulata,85.31
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,27.29,Halophila ovalis,94.45
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,8.32,Cymodocea serrulata,89.18
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,28.13,Thalassia hemprichii,93.4
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.31,Cymodocea serrulata,92.97
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,15.04,Cymodocea serrulata,83.62
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.2,Halophila ovalis,81.76
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.05,Thalassia hemprichii,89.89
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.17,Thalassia hemprichii,91.47
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,3.61,Zostera marina,89.82
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.65,Halophila ovalis,81.58
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.73,Zostera marina,91.14
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,17.42,Cymodocea serrulata,82.05
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,9.44,Cymodocea serrulata,84.31
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.68,Cymodocea serrulata,83.29
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,21.92,Thalassia hemprichii,91.85
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.59,Zostera marina,91.74
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.82,Thalassia hemprichii,93.68
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,26.54,Halophila ovalis,93.4
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,3.88,Halophila ovalis,81.44
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,23.14,Halophila ovalis,85.02
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,26.85,Thalassia hemprichii,82.01
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,22.99,Cymodocea serrulata,91.83
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,9.85,Cymodocea serrulata,85.68
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.18,Zostera marina,89.89
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,8.49,Cymodocea serrulata,91.58
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,15.99,Cymodocea serrulata,82.55
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.88,Cymodocea serrulata,91.6
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.97,Halophila ovalis,87.37
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.29,Zostera marina,93.59
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.79,Halophila ovalis,82.41
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.58,Halophila ovalis,84.44
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.39,Cymodocea serrulata,87.68
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,17.2,Thalassia hemprichii,90.23
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,7.89,Zostera marina,86.55
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,19.7,Zostera marina,85.4
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,20.64,Halophila ovalis,83.76
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,9.4,Halophila ovalis,90.43
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,21.56,Halophila ovalis,89.56
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.06,Thalassia hemprichii,82.25
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,17.44,Halophila ovalis,90.68
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,25.03,Halophila ovalis,90.93
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,19.18,Thalassia hemprichii,92.76
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,5.08,Halophila ovalis,83.98
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,13.27,Halophila ovalis,85.19
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.99,Cymodocea serrulata,83.75
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.82,Cymodocea serrulata,83.5
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,18.77,Halophila ovalis,85.18
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,6.27,Thalassia hemprichii,94.34
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,21.52,Zostera marina,86.53
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,9.6,Thalassia hemprichii,86.17
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,6.6,Thalassia hemprichii,89.54
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,9.9,Zostera marina,93.07
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,15.84,Cymodocea serrulata,93.7
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,19.93,Thalassia hemprichii,84.21
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,1.13,Thalassia hemprichii,82.83
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,19.58,Zostera marina,94.38
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.45,Zostera marina,82.21
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,15.9,Thalassia hemprichii,90.78
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.61,Zostera marina,89.67
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,16.68,Zostera marina,91.25
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,22.47,Thalassia hemprichii,89.19
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,7.72,Halophila ovalis,93.39
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.85,Cymodocea serrulata,82.62
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,5.25,Cymodocea serrulata,90.54
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,17.57,Cymodocea serrulata,82.23
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,13.89,Cymodocea serrulata,93.3
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,23.7,Zostera marina,87.22
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,20.41,Halophila ovalis,89.75
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,26.32,Thalassia hemprichii,86.37
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,28.18,Thalassia hemprichii,89.58
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,20.1,Zostera marina,93.6
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,29.87,Zostera marina,91.14
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,21.21,Zostera marina,90.37
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,19.57,Cymodocea serrulata,88.32
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,9.97,Thalassia hemprichii,85.06
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,13.15,Halophila ovalis,91.7
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,1.69,Thalassia hemprichii,85.18
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,19.66,Halophila ovalis,94.15
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,4.35,Thalassia hemprichii,82.34
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,15.75,Cymodocea serrulata,81.9
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,12.94,Cymodocea serrulata,92.22
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,14.42,Thalassia hemprichii,90.75
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,14.72,Halophila ovalis,94.21
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,2.26,Zostera marina,82.72
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,13.9,Thalassia hemprichii,93.27
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,8.57,Thalassia hemprichii,83.48
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,17.25,Cymodocea serrulata,94.83
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,15.64,Zostera marina,92.5
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,10.78,Zostera marina,87.04
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.2,Halophila ovalis,87.25
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,18.02,Halophila ovalis,90.49
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,15.71,Cymodocea serrulata,92.13
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,12.52,Halophila ovalis,86.36
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,24.69,Zostera marina,86.17
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,28.56,Cymodocea serrulata,84.78
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.01,Thalassia hemprichii,90.92
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,19.44,Halophila ovalis,85.33
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,14.42,Halophila ovalis,85.3
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.68,Halophila ovalis,87.22
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,13.67,Cymodocea serrulata,87.79
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,4.88,Zostera marina,94.55
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,18.85,Halophila ovalis,94.62
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.07,Thalassia hemprichii,88.32
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,17.51,Thalassia hemprichii,93.83
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,24.94,Thalassia hemprichii,92.32
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,10.23,Zostera marina,91.89
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,12.02,Halophila ovalis,84.24
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.61,Halophila ovalis,94.25
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,4.79,Zostera marina,86.75
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,27.31,Halophila ovalis,84.63
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.42,Halophila ovalis,85.45
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.92,Zostera marina,84.67
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,29.15,Cymodocea serrulata,86.01
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,5.92,Zostera marina,93.35
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,26.6,Cymodocea serrulata,91.06
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,7.61,Zostera marina,83.25
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.65,Zostera marina,85.09
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.5,Zostera marina,88.02
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.27,Thalassia hemprichii,89.39
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,13.63,Zostera marina,92.37
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,11.98,Halophila ovalis,85.97
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,18.36,Cymodocea serrulata,83.98
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,16.78,Thalassia hemprichii,93.79
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,13.2,Halophila ovalis,84.86
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,1.88,Halophila ovalis,84.66
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,8.13,Zostera marina,93.05
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,6.38,Thalassia hemprichii,81.75
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,29.69,Thalassia hemprichii,90.51
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,29.92,Thalassia hemprichii,87.97
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,2.36,Thalassia hemprichii,94.62
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,5.99,Halophila ovalis,82.82
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,14.67,Thalassia hemprichii,93.16
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,2.8,Zostera marina,91.94
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,1.48,Zostera marina,86.81
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.83,Thalassia hemprichii,83.3
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,7.83,Zostera marina,93.56
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.48,Cymodocea serrulata,90.93
+Fiber-reinforced plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,9.35,Thalassia hemprichii,85.01
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,11.61,Cymodocea serrulata,89.09
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,21.11,Halophila ovalis,83.01
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,2.56,Zostera marina,94.78
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,9.05,Halophila ovalis,83.14
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,28.43,Thalassia hemprichii,88.13
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,29.95,Halophila ovalis,94.57
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,23.95,Halophila ovalis,87.45
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,13.03,Thalassia hemprichii,83.86
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,18.86,Thalassia hemprichii,90.37
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,27.27,Zostera marina,92.09
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,20.71,Cymodocea serrulata,86.86
+Transparent acrylic,Small,50,50,30,11000,5500.0,6600.0,6.6,5.68,Zostera marina,90.18
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,26.91,Cymodocea serrulata,89.55
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,5.43,Cymodocea serrulata,83.42
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,26.61,Halophila ovalis,86.96
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,8.28,Zostera marina,92.92
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,24.05,Cymodocea serrulata,87.37
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,25.64,Zostera marina,90.06
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,7.21,Thalassia hemprichii,93.08
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,6.61,Zostera marina,81.17
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,24.72,Zostera marina,87.55
+Plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,23.33,Zostera marina,89.19
+Transparent acrylic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.42,Thalassia hemprichii,88.36
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.46,Cymodocea serrulata,87.73
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,28.95,Halophila ovalis,84.01
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,3.66,Zostera marina,83.29
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,6.27,Cymodocea serrulata,91.62
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.97,Halophila ovalis,87.1
+Biodegradable plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.14,Zostera marina,92.2
+Transparent acrylic,Medium,80,80,40,25600,12800.0,15360.0,15.36,17.05,Cymodocea serrulata,83.71
+Plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,25.55,Halophila ovalis,93.73
+Fiber-reinforced plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,13.83,Cymodocea serrulata,88.49
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,24.43,Thalassia hemprichii,86.04
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,22.13,Thalassia hemprichii,88.08
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,2.69,Cymodocea serrulata,90.42
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,6.36,Cymodocea serrulata,89.07
+Plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,23.94,Zostera marina,81.38
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,24.13,Thalassia hemprichii,92.22
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,3.09,Cymodocea serrulata,87.47
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,6.33,Cymodocea serrulata,88.33
+Transparent acrylic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,13.73,Halophila ovalis,89.54
+Fiber-reinforced plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,7.34,Halophila ovalis,89.35
+Recycled polymer,Medium,80,80,40,25600,12800.0,15360.0,15.36,26.69,Cymodocea serrulata,82.5
+Plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,11.18,Cymodocea serrulata,85.71
+Biodegradable plastic,Medium,80,80,40,25600,12800.0,15360.0,15.36,6.56,Thalassia hemprichii,81.21
+Recycled polymer,Large,100,100,50,40000,20000.0,24000.0,24.0,2.08,Cymodocea serrulata,94.5
+Recycled polymer,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,1.82,Thalassia hemprichii,85.04
+Recycled polymer,Small,50,50,30,11000,5500.0,6600.0,6.6,9.66,Halophila ovalis,91.46
+Biodegradable plastic,Large,100,100,50,40000,20000.0,24000.0,24.0,24.6,Thalassia hemprichii,81.22
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,5.9,Thalassia hemprichii,81.76
+Fiber-reinforced plastic,Extra Large,150,100,60,60000,30000.0,36000.0,36.0,19.98,Cymodocea serrulata,83.71
+Biodegradable plastic,Small,50,50,30,11000,5500.0,6600.0,6.6,20.28,Zostera marina,81.81
